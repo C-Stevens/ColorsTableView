@@ -12,6 +12,8 @@
 		535794E7215EBD6C00F64A00 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 535794E6215EBD6C00F64A00 /* Assets.xcassets */; };
 		535794EA215EBD6C00F64A00 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 535794E8215EBD6C00F64A00 /* LaunchScreen.storyboard */; };
 		535794F2215EBDDA00F64A00 /* ColorsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 535794F1215EBDDA00F64A00 /* ColorsViewController.swift */; };
+		537E70C121744A4A004047BF /* ColorDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 537E70BF217449B1004047BF /* ColorDetailViewController.swift */; };
+		537E70C321744B0A004047BF /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 537E70C221744B0A004047BF /* Color.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		535794E9215EBD6C00F64A00 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		535794EB215EBD6C00F64A00 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		535794F1215EBDDA00F64A00 /* ColorsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorsViewController.swift; sourceTree = "<group>"; };
+		537E70BF217449B1004047BF /* ColorDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorDetailViewController.swift; sourceTree = "<group>"; };
+		537E70C221744B0A004047BF /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,7 +59,9 @@
 			isa = PBXGroup;
 			children = (
 				535794DF215EBD6A00F64A00 /* AppDelegate.swift */,
+				537E70C221744B0A004047BF /* Color.swift */,
 				535794F1215EBDDA00F64A00 /* ColorsViewController.swift */,
+				537E70BF217449B1004047BF /* ColorDetailViewController.swift */,
 				535794E3215EBD6A00F64A00 /* Main.storyboard */,
 				535794E6215EBD6C00F64A00 /* Assets.xcassets */,
 				535794E8215EBD6C00F64A00 /* LaunchScreen.storyboard */,
@@ -135,6 +141,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				537E70C121744A4A004047BF /* ColorDetailViewController.swift in Sources */,
+				537E70C321744B0A004047BF /* Color.swift in Sources */,
 				535794F2215EBDDA00F64A00 /* ColorsViewController.swift in Sources */,
 				535794E0215EBD6A00F64A00 /* AppDelegate.swift in Sources */,
 			);
